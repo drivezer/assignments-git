@@ -1,0 +1,246 @@
+@media screen and (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    margin: 0px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.header {
+    background-color: #b6e1af;
+}
+
+.header-items-right {
+    float: right;
+    margin: 30px 20px 0px 0px;
+}
+
+.search-input {
+    border-radius: 20px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.navbar {
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.navbar-item {
+    margin: 20px;
+}
+
+.content {
+    background-color: #b6e1af;
+    padding: 30px;
+}
+
+.content-scroll {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.content-item {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    height: 400px;
+    width: 250px;
+    margin: 5px;
+}
+
+.content-item-shop {
+    display: inline-block;
+    margin: 5px;
+}
+
+.content-item-text {
+    padding-top: 10px;
+}
+
+.content-down {
+    background-color: #b6e1af;
+    text-align: center;
+}
+
+.content-down-item {
+    background-color: black;
+    color: darkred;
+    width: 70%;
+    display: inline-block;
+    border-radius: 5px 30px 5px 30px;
+}
+
+.image-down {
+    background-color: #b6e1af;
+    padding: 50px;
+    text-align: center;
+}
+
+.content-contact {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #b6e1af;
+}
+
+.content-contact-item {
+    text-align: center;
+}
+
+.input-email {
+    height: 40px;
+    width: 70%;
+}
+
+.btn-signup {
+    margin-left: -5px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: gray;
+}
+
+.content-contact-item-icon {
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+.icon-item {
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    height: 28px;
+    width: 28px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.content-contact-backtotop {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-item1 {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.footer-item2 {
+    margin-top: 5%;
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    height: 100%;
+}
+
+.footer-item3 {
+    margin-top: 5%;
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+}
+
+.mySlides2 {
+    display: none;
+    text-align: center;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
